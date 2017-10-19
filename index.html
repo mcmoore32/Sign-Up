@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Analog Sea: Sign Up Form</title>
+    <meta charset="utf-8" name="description" content="Sign up for Analog Sea"/>
+
+    <!-- reset -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css"/>
+
+    <!-- fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="styles/main.css"/>
+  </head>
+
+  <body>
+
+    <header>
+      <img src="img/logo.png" alt="">
+    </header>
+
+    <main>
+
+      <h1>Sign Up</h1>
+
+      <form class='signup-form' action="/some-server-endpoint" method='post'>
+
+        <label for="email">Email</label>
+        <input type="email" name='email' id='email' placeholder="foo@bar.com"/>
+
+        <label for="pword">Password</label>
+        <input type="password" name='pword' id='pword' placeholder="1234passw0rd"/>
+        
+        <button>Sign Up</button>
+
+      </form>
+      
+      <div>
+        <a href="#">Forgot password?</a>
+      </div>
+    </main>
+    <footer>
+      <span>Already have an account?</span>
+      <a href="#">Log in</a>
+    </footer>
+
+  </body>
+
+
